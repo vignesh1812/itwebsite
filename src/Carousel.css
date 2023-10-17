@@ -1,0 +1,10 @@
+.carous{
+    margin-top: 95px;
+}
+
+#carouselExampleIndicators img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    background-position: center;
+}

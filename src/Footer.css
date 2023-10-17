@@ -1,0 +1,10 @@
+.footer{
+    padding: 0 4vw;
+    background-color: royalblue;
+    border-top: 2px solid #fff;
+    color: #fff;
+}
+
+.footer>div{
+    margin-top: 10px;
+}

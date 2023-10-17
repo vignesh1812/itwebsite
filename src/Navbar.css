@@ -1,0 +1,82 @@
+.navigation{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+.navbar-contacts {
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 4vw;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: royalblue;
+}
+
+.navbar-contacts .contact {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    column-gap: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.navbar-contacts .social-links {
+    display: flex;
+    column-gap: 10px;
+}
+
+.navbar-contacts .social-links p {
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 0;
+
+}
+
+.navbar-contacts .contact p {
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 0;
+
+
+}
+
+.nav-menus{
+    display: flex;
+    padding: 0 4vw;
+    background-color: royalblue;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+
+}
+
+.nav-menus .nav-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menus .nav-brand p {
+    margin-bottom: 0;
+}
+
+.active{
+    border-bottom: 2px solid #fff;
+}
+
+ul li .links{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.nav-menus-menu{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 0%;
+}

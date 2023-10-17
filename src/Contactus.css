@@ -1,0 +1,49 @@
+.contactus{
+    background-color: royalblue;
+    padding: 30px 4vw;
+    color: #fff;
+    border-top: 2px solid #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    width: 350px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.contactus button{
+    width: 350px;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;  
+    outline: none;
+}
+
+textarea{
+    width: 350px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 10px;  
+}
+
+.contactus>div{
+    padding: 0px 140px;
+}
+.contactus>div>div{
+    padding: 30px 140px;
+
+    margin-top: 20px;
+}

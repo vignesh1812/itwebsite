@@ -1,0 +1,16 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    background-color: royalblue;
+    padding: 30px 4vw;
+    color: #fff;
+}
+
+.services>div>div{
+    padding: 0px 140px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+

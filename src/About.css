@@ -1,0 +1,36 @@
+.aboutus{
+  
+    background-color: royalblue;
+    padding: 30px 4vw;
+    color: #fff;
+    border-top:2px solid #fff ;
+    border-bottom:2px solid #fff ;
+   
+}
+.aboutus >div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: space-around;
+}
+.aboutus .aboutus-image
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+
+}
+.aboutus .aboutus-image img
+{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+.aboutus .aboutus-content{
+    width: 400px;
+}
+
